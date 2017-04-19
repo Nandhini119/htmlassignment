@@ -1,0 +1,225 @@
+/*header*/
+.header
+{
+	height:100px;
+	position:fixed;
+	background:white;
+	width:100%;
+}
+/*logo and title*/
+/*logo*/
+.image
+{
+	height:80px;
+	margin-left:5px;
+	margin-top:-5px;
+	padding:5px;
+	float:left;
+}
+/*title and style of navigaton menus*/
+.spn
+{
+	margin-top:17px;
+	color:#EA1C55;
+	font-size:30;
+	font-style:italic;
+	font-weight:bold;
+	font-family:Satisfy;
+	text-transform:uppercase;	
+	float:left;
+}
+/*navigation bar*/
+/*navigation menu arrow*/
+.darrow
+{
+	font-size:9pt;
+	margin-left:5px;
+	color:#EA1C55
+}
+/*navigation menus*/
+/*unordered list alignment*/
+#navigation ul
+{
+	list-style-type:none;
+	position:relative;
+	margin-top:10px;
+}
+/*list alignment space*/
+#navigation li
+{
+	padding:15px;
+}
+#navigation ul li 
+{
+	
+	display:inline-block;	
+}
+/*style for menus when hovered*/
+#navigation li:hover a
+{
+	font-size:18px;
+}
+/*to display submenu when hovered*/
+#navigation ul li:hover ul
+{
+	background-color:#BFB8B7;
+	display:block;
+	margin-top:10px;
+	margin-left:-60px;
+}
+/*hiding submenus*/
+#navigation ul ul
+{
+	display:none;
+	position:absolute;
+}
+/*alignment for the list*/
+#mainlist ul li 
+{
+	margin-top:15px;
+}
+#mainlist
+{
+	text-align:right;
+}
+/*style for the anchor tag*/
+#mainlist a
+{
+	text-decoration :none;
+	color:#EA1C55;
+	font-size:17px;
+	font-family:Bad Script;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+#submenu li:hover a
+{
+	font-size:20px;
+}
+#submenu ul li
+{
+	display:block;
+	padding:5px;
+}
+/*end of header part*/
+body
+{
+	background-color:#E9E7E7;
+}
+/*style for sides*/
+.side
+{
+	background-color:#E9E7E7;
+	width:10%;
+	float:left;
+	display:inline-block;
+}
+/*style for middle part*/
+.middle
+{
+	background-color:#E9E7E7;
+	width:80%;
+	float:left;
+}
+/*list style for images*/
+.list
+{
+	
+	list-style-type:none;
+	background:white;
+	border-bottom-right-radius:20px;
+	border-top-right-radius:20px;
+	border-top-left-radius:20px;
+	-webkit-box-shadow: inset 0 0 25px #73747d;
+}
+/*size of image in  four columns*/ 
+.image1
+{
+	padding:20px;
+	height:200px;
+	width:185px;
+	margin-left:-32px;	
+}
+/*name for the images*/
+.subheading
+{
+	padding:0.5px;
+}
+.icon
+{
+	margin-bottom:2.5px;
+}
+/*size for the images in two columns*/
+.image2
+{
+	padding:20px;
+	height:300px;
+	width:340px;
+	margin-left:-30px;
+	margin-right:15px;
+}
+.image3
+{
+	padding:20px;
+	height:565px;
+	width:500px;
+	margin-left:-30px;
+	margin-right:15px;
+}
+.image4
+{
+	padding:20px;
+	height:165px;
+	width:350px;
+	margin-left:-30px;
+	margin-right:15px;
+}
+/*size for the image in three column*/
+.image5
+{
+	padding:20px;
+	height:300px;
+	width:250px;
+	margin-left:-25px;
+	margin-right:20px;
+}
+/*hover style for images*/
+.list:hover{
+	opacity:.5;
+	transition:0.5s;
+	cursor:pointer;
+}
+/*headings of images*/
+h3
+{
+	font-family:Josefin Sans;
+	font-weight:bold;
+	color:#EA1C55;
+	text-transform:uppercase;
+	text-align:center;
+}
+/*footer section*/
+.footer
+{
+	background-color:#BDBBBB;
+	width:100%;
+	height:230px;
+	clear:both;
+}
+/*footer font styles*/
+.foofont
+{
+	font-size:14px;
+}
+/*style for copyright line*/
+.foop
+{
+	text-align:center;
+	font-size:10;
+	padding-top:10px;
+}
+
+
+
+
+

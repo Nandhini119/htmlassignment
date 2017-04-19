@@ -1,0 +1,173 @@
+
+/*header*/
+.header
+{
+	height:100px;
+	position:fixed;
+	background:white;
+	width:100%;
+}
+/*logo and title*/
+/*logo*/
+.image
+{
+	height:80px;
+	margin-left:5px;
+	margin-top:-5px;
+	padding:5px;
+	float:left;
+}
+/*title and style of navigaton menus*/
+.spn
+{
+	margin-top:17px;
+	color:#EA1C55;
+	font-size:30;
+	font-style:italic;
+	font-weight:bold;
+	font-family:Satisfy;
+	text-transform:uppercase;	
+	float:left;
+}
+/*navigation bar*/
+/*navigation menu arrow*/
+.darrow
+{
+	font-size:9pt;
+	margin-left:5px;
+	color:#EA1C55
+}
+/*navigation menus*/
+/*unordered list alignment*/
+#navigation ul
+{
+	list-style-type:none;
+	position:relative;
+	margin-top:10px;
+}
+/*list alignment space*/
+#navigation li
+{
+	padding:15px;
+}
+#navigation ul li 
+{
+	
+	display:inline-block;	
+}
+/*style for menus when hovered*/
+#navigation li:hover a
+{
+	font-size:18px;
+}
+/*to display submenu when hovered*/
+#navigation ul li:hover ul
+{
+	background-color:#BFB8B7;
+	display:block;
+	margin-top:10px;
+	margin-left:-60px;
+}
+/*hiding submenus*/
+#navigation ul ul
+{
+	display:none;
+	position:absolute;
+}
+/*alignment for the list*/
+#mainlist ul li 
+{
+	margin-top:15px;
+}
+#mainlist
+{
+	text-align:right;
+}
+/*style for the anchor tag*/
+#mainlist a
+{
+	text-decoration :none;
+	color:#EA1C55;
+	font-size:17px;
+	font-family:Bad Script;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+#submenu li:hover a
+{
+	font-size:20px;
+}
+#submenu ul li
+{
+	display:block;
+	padding:5px;
+}
+/*end of header part*/
+/*middle part color*/
+.grid
+{
+	background-color:#E9E7E7;
+}
+/*hero section*/
+.image3
+{
+    left: 50%;
+   	height:500px;
+	width:900px;
+	padding:20px;
+}
+/*images of three column part*/
+.image2
+{
+	height:280px;
+	width:300px
+}
+/*headings for images in three columns*/
+h3
+{
+	font-family:Great Vibes;
+	font-weight:bold;
+	color:#EA1C55;;
+}
+/*style for paragraph tag*/
+p
+{
+	text-align:justify;
+	font-size:18;	
+}
+/*two column image*/
+.image4
+{
+	margin-top:25px;
+	height:350px;
+	width:400px;
+}
+/*footer section*/
+.footer
+{
+	background-color:#BDBBBB;
+	width:100%;
+	height:230px;
+}
+/*footer font styles*/
+.foofont
+{
+	font-size:14px;
+}
+/*style for copyright line*/
+.foop
+{
+	text-align:center;
+	font-size:10;
+	padding-top:10px;
+}
+
+
+
+
+
+
+
+
+
+
